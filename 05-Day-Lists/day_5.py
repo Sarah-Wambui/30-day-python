@@ -118,4 +118,35 @@ fruits  = ['banana', 'orange', 'mango', 'lemon']
 fruits_copy = fruits.copy()
 print(fruits_copy)
 
+# Joining Lists
+# There are several ways to join, concatenate, two or more lists in Python
+# Plus OPerator(+)
+positive_numbers = [1, 2, 3, 4, 5]
+zero = [0]
+fruits = ['banana', 'orange', 'mango', 'lemon']
+vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+fruits_and_vegetables = fruits + vegetables
+print(fruits_and_vegetables)
+# Joining using extend
+fruits = ['banana', 'orange', 'mango', 'lemon']
+vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+fruits.extend(vegetables)
 
+# Counting Items in a list
+# The count() method returns the number of times an item appears in a list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.count('orange'))   
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.count(24))           
+
+# Reversing a List
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.reverse()
+print(fruits)
+
+# Sorting List Items
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort()
+print(fruits)
+fruits.sort(reverse=True)
+print(fruits)
